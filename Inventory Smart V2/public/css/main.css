@@ -1,0 +1,84 @@
+
+/*pendingItem.js*/
+.content-box .expand {
+    padding: 2px;
+    cursor: pointer;
+}
+
+.content-box {
+    border-bottom: 1px solid #d3d3d3;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn-xxl {
+  padding: 20px 26px;
+  font-size: 35px;
+  border-radius: 8px;
+}
+
+.borderless td, .borderless th {
+    border: 0px !important;
+}
+
+p .small {
+  font-size: 12px;
+}
+
+.overflow-table {
+  overflow-y: auto;
+
+  width: 100%;
+}
+
+img{
+    width:200px; /* you can use % */
+    height: auto;
+}
+
+@media print {
+    @page 
+    {
+        size: auto;  
+        margin: 4px; 
+    }
+
+  body * {
+    visibility: hidden;
+  }
+  .printarea * {
+    /*size: auto; */
+    position:static;
+    visibility: visible;
+    
+  }
+  .top-group {
+      position: fixed;
+      width: 115%;
+      top: 0;
+  }
+  .bottom-group {
+      position: fixed;
+      width: 115%;
+      bottom: 0;
+  }
+  #search-display * {
+      /*position: fixed;*/
+      width: 80%;
+      top: 10px;
+      position: static;
+      visibility: visible;
+  }
+
+}
+.highlight-hover div{
+  height: 34px;
+  line-height: 34px;
+}
+
+.highlight-hover div:hover {
+  background-color: #f5f5f5;
+}

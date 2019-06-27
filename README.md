@@ -1,4 +1,4 @@
-# disatapp - Inventory Smart V2.0
+# Inventory Smart V2.0
 
 This browser based app is used as an inventory management system. 
 So obviously the program is ment to be used for keeping track of inventory. 
